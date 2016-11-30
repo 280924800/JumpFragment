@@ -17,6 +17,7 @@ public class OneFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         TextView mTextView = new TextView(getActivity());
         mTextView.setText("测试二");
+
         return mTextView;
     }
 }
